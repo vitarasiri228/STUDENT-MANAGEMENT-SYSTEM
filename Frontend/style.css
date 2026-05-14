@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(135deg, #b7c5da, #38c79e);
+    min-height: 100vh;
+    margin: 0;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background: rgb(128, 28, 0);
+    color: white;
+    border: none;
+}

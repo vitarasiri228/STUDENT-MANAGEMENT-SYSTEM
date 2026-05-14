@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1> Student Management System</h1>
+
+    <div class="card">
+        <h2>Add Student-</h2>
+
+        <input id="id" placeholder="Student ID">
+        <input id="name" placeholder="Student Name">
+        <input id="course" placeholder="Course">
+
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <div class="card">
+        <h2>Student List</h2>
+        <input id="search" placeholder="Search by ID or Name" onkeyup="searchStudent()">
+        <ul id="studentList"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
