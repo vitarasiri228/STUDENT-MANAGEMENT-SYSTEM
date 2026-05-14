@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/students";
+const API = "https://student-backend-qt5w.onrender.com";
 
 async function loadStudents() {
     const res = await fetch(API);
@@ -35,7 +35,7 @@ async function addStudent() {
 }
 
 async function deleteStudent(id) {
-    await fetch(`http://localhost:3000/students/${id}`, {
+    await fetch(`https://student-backend-qt5w.onrender.com`, {
         method: "DELETE"
     });
 
